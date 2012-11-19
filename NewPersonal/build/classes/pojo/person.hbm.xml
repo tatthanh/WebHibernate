@@ -2,7 +2,7 @@
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
                                    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 <hibernate-mapping schema="tut">
- <class name="pojo.Person">
+ <class name="pojo.Person" table="person">
   <meta attribute="description">cha hieu gi</meta>
   <id column="Id" name="Id" type="integer"/>
   <property column="Name" name="Name" type="string"/>

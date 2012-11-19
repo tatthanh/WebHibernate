@@ -9,6 +9,8 @@
         <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/tut</property>
         <property name="hibernate.connection.username">root</property>
         <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="show_sql">true</property>
+        <property name="format_sql">true</property>
         <mapping resource="pojo/person.hbm.xml"/>
         
     </session-factory>
