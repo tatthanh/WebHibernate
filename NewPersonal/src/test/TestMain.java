@@ -17,20 +17,7 @@ public class TestMain {
 	public void saveRecord(){
 		Person p=new Person("Tuanga","Ha Tay");
 		PersonDao.register(p);
-//		Session session = HibernateUtil.getSessionFactory().openSession();
-//		Transaction transaction = null;
-//		try {
-//			transaction=session.beginTransaction();
-//			session.save(p);
-//			transaction.commit();
-//			System.out.println("Data Add");
-//			
-//		} catch (Exception e) {
-//			// TODO: handle exception
-//			e.printStackTrace();
-//		}finally{
-//			session.close();
-//		}
+
 	}
 
 }
